@@ -1,0 +1,22 @@
+{
+  "name": "koishi-plugin-rr-server-temp",
+  "description": "开箱即用的临时文件服务，用于 QQ 适配器",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "devDependencies": {},
+  "peerDependencies": {
+    "koishi": "^4.17.0-beta.4"
+  }
+}
