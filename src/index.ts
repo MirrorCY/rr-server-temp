@@ -24,7 +24,7 @@ export class TempServer extends Service {
 
   constructor(protected ctx: Context, config: TempServer.Config) {
     super(ctx, 'server.temp', true)
-    this.serverUrl = trimSlash(config.serverUrl || 'http://42.193.147.60:4244/portal/push')
+    this.serverUrl = trimSlash(config.serverUrl || 'https://rr-server-temp.42.none.bot/portal/push')
   }
 
   async _push(buffer: Buffer): Promise<string> {
